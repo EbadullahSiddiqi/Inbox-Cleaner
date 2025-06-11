@@ -4,18 +4,12 @@
   "description": "Unsubscribe from newsletters and delete old promotional emails.",
   "version": "1.0",
   "action": {
-    "default_popup": "popup.html",
-    "default_icon": {
-      "16": "icons/icon16.png",
-      "48": "icons/icon48.png",
-      "128": "icons/icon128.png"
-    }
+    "default_popup": "popup.html"
   },
   "permissions": ["identity"],
   "oauth2": {
-    "client_id": "YOUR_GOOGLE_CLIENT_ID.apps.googleusercontent.com",
+    "client_id": "1089936711341-4alj9jbtms1b8a45un7c5dvp6j8bon3g.apps.googleusercontent.com",
     "scopes": [
-      "https://www.googleapis.com/auth/gmail.readonly",
       "https://www.googleapis.com/auth/gmail.modify"
     ]
   },
